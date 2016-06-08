@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>name</td>
+        <td>mean</td>
+        <td>standard deviation</td>
+    </tr>
+    {% for name, value in result %}
+        <tr>
+            <td>{{ name }}</td>
+            <td>{{ value.mean() }}</td>
+            <td>{{ value.std() }}</td>
+        </tr>
+    {% endfor %}
+</table>
+<!-- query parameter used as cache buster - http://flask.pocoo.org/snippets/40/ -->
+<img src="static/lineplot.png?q={{ time }}"><br>
+<img src="static/scatterplot.png?q={{ time }}">
+</body>
+</html>

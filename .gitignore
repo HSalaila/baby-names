@@ -68,3 +68,7 @@ target/
 #Data file
 data/*
 !data/_DATA_GOES_HERE_
+
+#static files
+static/*
+!static/_PLOTS_GOES_HERE_

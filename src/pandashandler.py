@@ -1,6 +1,6 @@
 import pandas as pd
 
-DEFAULT_PATH = "../data/NationalNames.csv"
+DEFAULT_PATH = "data/NationalNames.csv"
 
 
 def read_csv(file=DEFAULT_PATH):
