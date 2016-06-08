@@ -60,3 +60,11 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+#IntelliJ IDEA
+.idea/
+*.iml
+
+#Data file
+data/*
+!data/_DATA_GOES_HERE_
