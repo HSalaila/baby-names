@@ -11,7 +11,7 @@ Also, [NationalNames.csv](https://www.kaggle.com/kaggle/us-baby-names) is in the
 1. open the terminal in project root folder
 2. enter the following:
 
-> python analysis.py \<name1\> \<name2\> \[\<path\>\]
+> python console.py \<name1\> \<name2\> \[\<path\>\]
 > * where \<name1\> and \<name2\> are names, case-sensitive and \<path\> is the path to the csv file. Defaults to the data/NationalNames.csv
 
 # 2. Web application (using Flask)
